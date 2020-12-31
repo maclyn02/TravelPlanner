@@ -5,6 +5,7 @@ import {
   Route
 } from 'react-router-dom'
 import Header from './Components/Header';
+import Login from './Components/Login';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Switch>
           <Route path='/login'>
             <Header />
-            <div>Login</div>
+            <Login />
           </Route>
           <Route path='/'>
             <Header />

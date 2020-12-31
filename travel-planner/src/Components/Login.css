@@ -1,0 +1,39 @@
+.login__form {
+    width: 100%;
+}
+
+.login__container {
+    background-color: white;
+    max-width: 80vw;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 400px;
+    padding: 20px;
+}
+
+.password__adornment {
+    cursor: pointer;
+}
+
+.login__input, .login__button, .register__button {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 100%;
+}
+
+.login__button div, .register__button div {
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.register__button {
+    background-color: rgb(255, 145, 145) !important;
+}
+
+.login__header {
+    font-size: 20px;
+    font-weight: 600;
+}
