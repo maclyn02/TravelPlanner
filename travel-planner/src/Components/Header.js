@@ -18,7 +18,7 @@ function Header() {
                             <AccountCircleIcon />
                         </div>
                         <div>
-                            <span>Sign-In</span>
+                            <span>Login</span>
                         </div>
                     </div>
                 </Link>
