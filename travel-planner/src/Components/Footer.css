@@ -1,0 +1,17 @@
+.footer {
+    padding: 30px;
+    position: sticky;
+    bottom: 0;
+    background: linear-gradient(to right, rgb(83 35 136), rgb(255, 145, 145));
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer__text {
+    line-height: 1.5;
+    margin-left: 5px;
+}
