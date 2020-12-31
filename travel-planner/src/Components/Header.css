@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: rgb(204, 199, 219);
+    background-color: rgb(243, 239, 255);
 }
 
 .header>div {
@@ -38,7 +38,7 @@
 }
 
 .header__logoText:hover, .header__links:hover {
-    box-shadow: 0 0 0 2pt white;
+    box-shadow: 0 0 0 2pt cornflowerblue;
 }
 
 .header__logoText, .header__links {
