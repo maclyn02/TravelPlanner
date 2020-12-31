@@ -1,11 +1,34 @@
 import { Button, FormControl, InputAdornment, TextField } from '@material-ui/core'
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
+import { useStateValue } from '../StateProvider';
 import './Login.css'
 
 function Login() {
 
     const [showPassword, setShowPassword] = useState(false)
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
+
+    const [, dispatch] = useStateValue()
+
+    const history = useHistory()
+
+    const handleLogin = () => {
+        dispatch({
+            type: 'SET_USER',
+            user: username
+        })
+        history.push('/')
+    }
+
+    const handleRegister = () => {
+        dispatch({
+            type: 'SET_USER',
+            user: username
+        })
+        history.push('/')
+    }
 
     return (
         <div className='login'>
@@ -16,18 +39,22 @@ function Login() {
                 <FormControl className='login__form'>
                     <TextField
                         className="login__input"
+                        value={username}
                         label="Username"
                         variant="outlined"
                         color="secondary"
                         required
+                        onChange={event => setUsername(event.target.value)}
                     />
                     <TextField
                         className="login__input"
+                        value={password}
                         label="Password"
                         variant="outlined"
                         type={showPassword ? 'text' : 'password'}
                         color="secondary"
                         required
+                        onChange={event => setPassword(event.target.value)}
                         InputProps={{
                             endAdornment:
                                 <InputAdornment
@@ -39,16 +66,12 @@ function Login() {
                                 </InputAdornment>
                         }}
                     />
-                    <Link to='/'>
-                        <Button variant="contained" color="primary" className="login__button">
-                            <div>LOGIN</div>
-                        </Button>
-                    </Link>
-                    <Link to='/'>
-                        <Button variant="contained" className="register__button">
-                            <div>REGISTER</div>
-                        </Button>
-                    </Link>
+                    <Button variant="contained" color="primary" className="login__button" onClick={event => handleLogin()}>
+                        <div>LOGIN</div>
+                    </Button>
+                    <Button variant="contained" color="secondary" className="register__button" onClick={event => handleRegister()}>
+                        <div>REGISTER</div>
+                    </Button>
                 </FormControl>
             </div>
         </div>

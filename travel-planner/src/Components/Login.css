@@ -24,13 +24,12 @@
 }
 
 .login__button div, .register__button div {
-    color: white;
     font-size: 20px;
     font-weight: 600px;
 }
 
 .register__button {
-    background-color: rgb(255, 145, 145) !important;
+    background-color: rgb(233, 127, 127) !important;
 }
 
 .login__header {
