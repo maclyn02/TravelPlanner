@@ -1,0 +1,27 @@
+.itemCard {
+    margin-bottom: 10px !important;
+}
+
+.itemCard:hover {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.itemCard img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.itemCard__title {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.itemCard__location {
+    display: flex;
+    align-content: center;
+    line-height: 1.5;
+}
+
+.itemCard__location>span {
+    color: rgb(108, 68, 201);
+}
