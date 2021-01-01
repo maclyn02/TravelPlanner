@@ -1,26 +1,34 @@
 [
     {
         "Title": "Durdle Door",
-        "Note": "",
-        "URL": "https://www.google.com/maps/place/Durdle+Door/data=!4m2!3m1!1s0x4872ffa959a8775b:0xb8a46ee0645f2196",
-        "Comment": ""
-    },
-    {
-        "Title": "Man O'War Beach",
-        "Note": "",
-        "URL": "https://www.google.com/maps/place/Man+O'War+Beach/data=!4m2!3m1!1s0x4872ffae7d30a225:0x3544b11fedd39f8b",
-        "Comment": ""
+        "Lat": 50.6212,
+        "Long": -2.2768,
+        "URL": "https://t.wallpaperweb.org/wallpaper/known_places/1440x900/Durdle_Door_1440x900.jpg",
+        "Country": "United Kingdom",
+        "Place": "Weymouth"
     },
     {
         "Title": "Sandsfoot Castle",
-        "Note": "",
-        "URL": "https://www.google.com/maps/place/Sandsfoot+Castle/data=!4m2!3m1!1s0x4872f719748ed31d:0x9701ba4ebd515b83",
-        "Comment": ""
+        "Lat": 50.5952,
+        "Long": -2.4608,
+        "URL": "https://1.bp.blogspot.com/-SCKqDVVIO1M/VVTk2mrSzLI/AAAAAAAAM9g/edi5xKAutqs/s1600/Sandsfoot%2BCastle%2B2.jpg",
+        "Country": "United Kingdom",
+        "Place": "Weymouth"
     },
     {
         "Title": "Nothe Fort",
-        "Note": "",
-        "URL": "https://www.google.com/maps/place/Nothe+Fort/data=!4m2!3m1!1s0x4872f70b61006ceb:0x76b48fdf7b265e97",
-        "Comment": ""
+        "Lat": 50.6074,
+        "Long": -2.4439,
+        "URL": "https://droneflyersgbandbeyond.com/wp-content/uploads/2019/02/LRM_EXPORT_74872183721215_20190125_174442285.jpeg",
+        "Country": "United Kingdom",
+        "Place": "Weymouth"
+    },
+    {
+        "Title": "Man O'War Beach",
+        "Lat": 50.6220,
+        "Long": -2.2740,
+        "URL": "https://www.beautifulenglandphotos.uk/wp-content/uploads/2015/08/man-o-war-beach-near-durdle-door.jpg",
+        "Country": "United Kingdom",
+        "Place": "Dorset"
     }
 ]
