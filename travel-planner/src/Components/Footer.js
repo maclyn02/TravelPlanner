@@ -10,7 +10,7 @@ function Footer() {
                     <CopyrightIcon />
                 </div>
                 <div className='footer__text'>
-                    Maclyn Afonso 2020 - 2021
+                    Maclyn Afonso 2020 - 2021 (images not included)
                 </div>
             </div>
         </div>
