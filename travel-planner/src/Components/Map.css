@@ -1,0 +1,16 @@
+/* .map__pin {
+    height: 50px !important;
+    width: 30px !important;
+} */
+
+.map__pinWishlist {
+    color: rgb(4, 48, 88) !important;
+}
+
+.map__pinVisited {
+    color: rgb(0, 65, 0) !important;
+}
+
+.map__pinPlanned {
+    color: rgb(119, 21, 81) !important;
+}
