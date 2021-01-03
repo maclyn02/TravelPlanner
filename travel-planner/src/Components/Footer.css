@@ -1,9 +1,10 @@
 .footer {
     padding: 30px;
     background: linear-gradient(to right, rgb(83 35 136), rgb(255, 145, 145));
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
+    z-index: 100;
 }
 
 .footer__copyright {

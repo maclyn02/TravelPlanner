@@ -40,7 +40,9 @@ function Main() {
             </div>
             <div className="main__container">
                 <div className="main__containerLeft">
-                    <Map listType={selectedTab} />
+                    <div className="map__container">
+                        <Map listType={selectedTab} />
+                    </div>
                     <div className="main__listHeader">
                         {selectedTab} Countries
                     </div>

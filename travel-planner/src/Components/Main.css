@@ -19,14 +19,17 @@
 }
 
 .main__containerLeft {
-    background-color: white;
     flex:0.8;
     margin-right: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    height: 600px;
 } 
+
+.map__container {
+    background-color: white;
+    border-radius: 10px;
+    height: 600px;
+    padding: 10px;
+}
 
 .main__listHeader {
     margin-top: 60px;
@@ -35,8 +38,8 @@
 }
 
 .main__listContainer{
+    margin-bottom: 20px;    
     margin-top: 10px;
-    padding-bottom: 200px;
     display: flex;
     flex-wrap: wrap;
 }
