@@ -28,6 +28,19 @@
     height: 600px;
 } 
 
+.main__listHeader {
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.main__listContainer{
+    margin-top: 10px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .main__containerRight {
     background-color: white;
     flex:0.2;

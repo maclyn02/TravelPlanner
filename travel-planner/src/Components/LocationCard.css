@@ -1,0 +1,23 @@
+.locationCard img {
+    width: 300px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.locationCard__title {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-top: -60px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.locationCard {
+    margin: 25px 20px 25px 20px;
+    transition: transform 0.5s;
+}
+
+.locationCard:hover {
+    transform: scale(1.1);
+}
