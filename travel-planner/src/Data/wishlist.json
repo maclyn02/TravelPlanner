@@ -119,13 +119,6 @@
         "Country": "Greece"
     },
     {
-        "Title": "Bhutan Gate",
-        "Lat": 26.7925691,
-        "Lng": 91.50234549999999,
-        "Address": "NH127D, Assam 781360, India",
-        "Country": "India"
-    },
-    {
         "Title": "Dochula Pass",
         "Lat": 27.4899943,
         "Lng": 89.7502915,
@@ -3468,8 +3461,8 @@
         "Title": "Barentsburg",
         "Lat": 78.0648475,
         "Lng": 14.2334597,
-        "Address": "Barentsburg 9178, Svalbard and Jan Mayen",
-        "Country": "Svalbard and Jan Mayen"
+        "Address": "Barentsburg 9178, Svalbard",
+        "Country": "Svalbard"
     },
     {
         "Title": "Suomenlinna",
