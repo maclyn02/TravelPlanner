@@ -27,11 +27,11 @@ function Map({ listType }) {
             defaultCenter={defaultProps.center}
             defaultZoom={defaultProps.zoom}
         >
-            {places.filter(place => place.Lat === 'N/A' ? false : true).map((place,index) => (
+            {places.filter(place => place.lat === 'N/A' ? false : true).map((place,index) => (
                 <LocationOnIcon
                     key={index}
-                    lat={place.Lat}
-                    lng={place.Lng}
+                    lat={place.lat}
+                    lng={place.lng}
                     className={`map__pin map__pin${listType}`}
                 />
             ))}

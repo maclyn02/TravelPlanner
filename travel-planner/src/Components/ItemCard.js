@@ -8,10 +8,10 @@ function ItemCard({ place }) {
         <Card className='itemCard'>
             <CardContent>
                 <Typography className='itemCard__title'>
-                    {place.Title}
+                    {place.title}
                 </Typography>
-                <img src={place.URL} alt={place.Title} />
-                <div className='itemCard__location'> <span><LocationOnIcon/></span>{place.Place}, {place.Country}</div>
+                <img src={place.url} alt={place.title} />
+                <div className='itemCard__location'> <span><LocationOnIcon/></span>{place.Place}, {place.country}</div>
             </CardContent>
         </Card>
     )

@@ -13,8 +13,8 @@ function CountryExplorer() {
                 <h2>{country}</h2>
             </div>
             <div className="countryExplorer__placesContainer">
-                {places.filter(place => (place.Country === country)).map(place => (
-                    <LocationCard key={place.Title} location={place} type="Place" places={null} />
+                {places.filter(place => (place.country === country)).map(place => (
+                    <LocationCard key={place.title} location={place} type="Place" places={null} />
                 ))}
             </div>
             

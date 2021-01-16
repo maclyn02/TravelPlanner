@@ -16,12 +16,12 @@ function LocationCard({ location, type, places }) {
     useEffect(() => {
         if (type === 'Country') {
             setLocationName(location)
-            const image = getJson('Country').filter(country => country.Title === location).map(country => country.URL)
+            const image = getJson('Country').filter(country => country.title === location).map(country => country.url)
             setImageUrl(image ? image : 'https://icon-library.com/images/no-photo-available-icon/no-photo-available-icon-4.jpg')
         }
         else {
-            setLocationName(location.Title || '')
-            setImageUrl(location.URL)
+            setLocationName(location.title || '')
+            setImageUrl(location.url)
         }
     }, [location, type])
 

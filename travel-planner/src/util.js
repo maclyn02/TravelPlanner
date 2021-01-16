@@ -1,5 +1,5 @@
 import visited from './Data/visited.json'
-import wishlist from './Data/updated_wishlist.json'
+import wishlist from './Data/wishlist.json'
 import countries from './Data/countries.json'
 
 function getJson(listType) {
