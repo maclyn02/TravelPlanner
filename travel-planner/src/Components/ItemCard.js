@@ -1,6 +1,6 @@
 import { Card, CardContent, Typography } from '@material-ui/core'
 import React from 'react'
-import './ItemCard.css'
+import './CSS/ItemCard.css'
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 function ItemCard({ place }) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStateValue } from '../StateProvider'
-import './CountryExplorer.css'
+import './CSS/CountryExplorer.css'
 import LocationCard from './LocationCard'
 
 function CountryExplorer() {

@@ -1,6 +1,6 @@
 import { Card, CardContent, Typography } from '@material-ui/core'
 import React from 'react'
-import './NavCard.css'
+import './CSS/NavCard.css'
 
 function NavCard({ title, countPlaces, countCountries }) {
     return (

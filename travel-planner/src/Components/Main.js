@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Main.css'
+import './CSS/Main.css'
 import Map from './Map'
 import NavCard from './NavCard'
 import getJson from '../util'

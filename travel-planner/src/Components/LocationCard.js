@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useStateValue } from '../StateProvider'
 import getJson from '../util'
-import './LocationCard.css'
+import './CSS/LocationCard.css'
 import { Dialog, IconButton } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 

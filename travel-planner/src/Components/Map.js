@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react'
 import apikey from '../apikey'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import getJson from '../util'
-import './Map.css'
+import './CSS/Map.css'
 
 function Map({ listType }) {
 

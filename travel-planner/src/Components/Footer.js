@@ -1,6 +1,6 @@
 import React from 'react'
 import CopyrightIcon from '@material-ui/icons/Copyright';
-import './Footer.css'
+import './CSS/Footer.css'
 
 function Footer() {
     return (
