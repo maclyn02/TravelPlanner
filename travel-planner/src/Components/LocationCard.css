@@ -1,6 +1,7 @@
 .locationCard img {
     width: 270px;
-    object-fit: contain;
+    height: 200px;
+    object-fit: cover;
     cursor: pointer;
 }
 
@@ -15,10 +16,32 @@
 }
 
 .locationCard {
-    margin: 25px 20px 25px 20px;
+    margin: 30px 20px 20px 20px;
     transition: transform 0.5s;
+    height: 200px;
 }
 
 .locationCard:hover {
     transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.locationCard__modal div[role='dialog'] {
+    max-width: 1000px !important;
+    min-width: 70vw !important;
+    overflow: hidden !important;
+}
+
+.locationCard__modal img {
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.locationCard__modalHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px !important;
+    line-height: 2;
 }

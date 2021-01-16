@@ -5,6 +5,7 @@ import NavCard from './NavCard'
 import getJson from '../util'
 import ItemCard from './ItemCard'
 import LocationCard from './LocationCard'
+import { Link } from 'react-router-dom'
 
 function Main() {
 
@@ -49,7 +50,9 @@ function Main() {
                     <hr />
                     <div className="main__listContainer">
                         {distinctCountries.filter(country => country !== 'N/A').map(country => (
-                            <LocationCard key={country} location={country} type="Country" />
+                            <Link to='/places'>
+                                <LocationCard key={country} location={country} type="Country" places={places} />
+                            </Link>
                         ))}
                     </div>
                 </div>
