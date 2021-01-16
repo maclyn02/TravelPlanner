@@ -1,0 +1,6 @@
+.countryExplorer__placesContainer{
+    margin-bottom: 20px;    
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -8,6 +8,7 @@ import Header from './Components/Header';
 import Login from './Components/Login';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
+import CountryExplorer from './Components/CountryExplorer';
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
           <Route path='/login'>
             <Header />
             <Login />
+            <Footer />
+          </Route>
+          <Route path='/places'>
+            <Header />
+            <CountryExplorer />
             <Footer />
           </Route>
           <Route path='/'>
