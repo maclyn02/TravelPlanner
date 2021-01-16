@@ -5,6 +5,8 @@ import './CSS/LocationCard.css'
 import { Dialog, IconButton } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 
+const error_image = 'https://icon-library.com/images/no-photo-available-icon/no-photo-available-icon-4.jpg'
+
 
 function LocationCard({ location, type, places }) {
 
@@ -17,7 +19,7 @@ function LocationCard({ location, type, places }) {
         if (type === 'Country') {
             setLocationName(location)
             const image = getJson('Country').filter(country => country.title === location).map(country => country.url)
-            setImageUrl(image ? image : 'https://icon-library.com/images/no-photo-available-icon/no-photo-available-icon-4.jpg')
+            setImageUrl(image ? image : error_image)
         }
         else {
             setLocationName(location.title || '')
@@ -40,13 +42,12 @@ function LocationCard({ location, type, places }) {
 
     const handleCloseModal = () => {
         setModalOpen(false)
-        console.log(modalOpen)
     }
 
     return (
         <div className='locationCard'>
             <div onClick={event => handleClickLocation()}>
-                <img src={imageUrl} alt={locationName} />
+                <img src={imageUrl} alt={locationName} onError={event => { event.target.onerror = null; event.target.src = error_image }}/>
                 <div className='locationCard__title'>
                     {locationName}
                 </div>
@@ -58,7 +59,7 @@ function LocationCard({ location, type, places }) {
                         <CloseIcon />
                     </IconButton>
                 </div>
-                <img src={imageUrl} alt={locationName} />
+                <img src={imageUrl} alt={locationName} onError={event => { event.target.onerror = null; event.target.src=error_image}}/>
             </Dialog>
         </div>
     )

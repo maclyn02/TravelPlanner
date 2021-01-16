@@ -18,7 +18,7 @@ function Main() {
 
         const jsonData = getJson(selectedTab)
         setPlaces(jsonData)
-        setDistinctCountries(getDistinct(jsonData, 'Country'))
+        setDistinctCountries(getDistinct(jsonData, 'country'))
 
     }, [selectedTab])
 
