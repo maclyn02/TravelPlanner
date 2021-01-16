@@ -104,7 +104,7 @@
         "URL": "https://www.newtimes.co.rw/sites/default/files/main/articles/2020/10/19/698d88e0-02f1-11eb-88c7-25dcd0ae6080_image_hires_153032.jpg"
     },
     {
-        "Title": "Myanmar (Burma)",
+        "Title": "Myanmar",
         "URL": "https://res-5.cloudinary.com/enchanting/w_768,h_512,c_fill,f_auto/et-web/2016/06/Hot-air-balloon-over-plain-of-Bagan-in-misty-morning-Myanmar-Asia-shutterstock_244233511.jpg"
     },
     {
@@ -128,7 +128,7 @@
         "URL": "https://www.followingtherivera.com/wp-content/uploads/2020/07/Singapore-at-night-things-to-do-at-night-in-Singapore-.jpg"
     },
     {
-        "Title": "The Bahamas",
+        "Title": "Bahamas",
         "URL": "https://www.ncl.com/sites/default/files/900px_Nassau_Bahamas_Cruise_Excursions_shutterstock_1062445364.jpg"
     },
     {
@@ -246,5 +246,9 @@
     {
         "Title": "Brazil",
         "URL": "https://www.avianca.com/content/dam/avianca_new/destinos/semana/gig/1-porque-visitarla/destino-rio-de-janeiro-brazil-para-conocer-el-cerro-del-corcovado.jpg"
+    },
+    {
+        "Title": "Cambodia",
+        "URL": "https://static01.nyt.com/images/2015/05/17/travel/20150517CAMBODIA-slide-U2FN/20150517CAMBODIA-slide-U2FN-superJumbo.jpg"
     }
 ]
